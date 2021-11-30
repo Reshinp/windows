@@ -1,0 +1,206 @@
+*{
+  box-sizing: border-box;
+  /* border: solid; */
+}
+.logo
+{
+    width: 150px;
+    height: 100%;
+    max-width: 2048px;
+  }
+
+  .container-fluid {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+body{
+  
+    max-width: 100%;
+    overflow-x: hidden!important;
+   
+  margin: 0px!important;
+}
+.nav-item
+{
+    font-size: small;
+}
+
+
+.pic1
+  {
+    width: 100%;
+    height: 533px;
+    background-image: url(images/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 100px;
+  }
+ 
+
+.bodystyle
+{
+width: 90%;
+margin: 0 auto;
+}
+
+    li {
+        list-style: none;
+        
+    }
+
+  
+  
+
+ 
+  
+.link
+  {
+    color: #950c17;
+    text-decoration: none;
+  }
+  .msstyle
+  {
+    width: 100%;
+    height: 533px;
+    background-image: url(images/5.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 100px;
+  }
+  .covid
+  {
+    margin-bottom: 30px;
+
+    width:100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e6;
+    padding-top: 50px;
+    border: #950c17;
+   
+  }
+  .card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+  .social
+  {
+    
+    width: 100%;
+    margin-bottom: 40px;
+    
+  }
+  .fa-youtube
+  {
+    color: red;
+  }
+  .facebook-square
+  {
+    color: #4267B2;
+  }
+
+  
+.element.style {
+  color: red;
+  height: 35px;
+}
+main
+{
+  border-bottom: 40px;
+  border-top: 40px;
+}
+  .mainfooter
+  {
+   
+  
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+  }
+  .footer
+  {
+    width: 87%;
+    
+    justify-content:space-between ;
+    
+  }
+  .footerheading
+  {
+    font-size: large;
+    
+    
+  }
+  .footerlinks a
+  {
+    text-decoration: none;
+    color: black;
+    font-size: x-small;
+    line-height: 3;
+  }
+  .language
+  {
+    background: #f2f2f2;
+  }
+  .footerright 
+  {
+    display: flex;
+    justify-content: space-between;
+ 
+ 
+  }
+.nav-link
+{
+  color: black!important;
+}
+  
+  .sale1{
+    width: 200px;
+}
+
+  .btn1{
+    background-color: black;
+  }
+  .card{
+    border: none !important;
+  }
+  .container {
+    padding-left:115px;
+    
+ }
+ .rightheader::after
+ {
+   content: url(images/search.svg);
+ }
+ .banner1{
+   background-image: url(images/slide1.webp);
+   width: 100%;
+   height: 533px;
+   background-size: 100% ;
+   background-repeat: no-repeat;
+   align-items: flex-start;
+ }
+ .banner2{
+  background-image: url(images/slide2.webp);
+  width: 100%;
+  height: 533px;
+  background-size: 100% ;
+  background-repeat: no-repeat;
+}
+.cd{
+  margin-left: 10px;
+}
+.padr{
+  padding-left: 12px;
+}
